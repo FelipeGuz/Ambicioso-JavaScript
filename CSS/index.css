@@ -1,0 +1,40 @@
+
+html{
+    background-color: rgb(212, 212, 39);
+}
+
+body :nth-child(2){
+    background-color: rgb(185, 185, 34);
+}
+
+.row{
+    text-align: center;
+}
+
+#jugadores{
+    font-size: 50px;
+}
+
+#puntaje{
+    font-size: 50px;
+}
+
+#titulo{
+    height: 200px;
+    background-color: rgb(212, 212, 39);
+}
+
+#titulo p{
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+#subTitle p{
+    margin: 50px 0px 50px 0px;
+    font-size: 40px;
+}
+
+#continuar{
+    margin: 80px 60px 10px 0px;
+    text-align: right;
+}

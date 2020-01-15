@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INICIO</title>
+
+    <!-- ESTILO -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/index.css">
+
+</head>
+<body>
+
+    <div class="row">
+        <div class="col" id="titulo">
+            <p>AMBICIOSO</p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <!-- Puntaje Maximo -->
+        <div class="col-6">
+            <div class="row">
+                <div class="col" id="subTitle">
+                    <p>Puntaje Maximo</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col"><p id="puntaje">0</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"><button onclick="addScore(0)">-</button></div>
+                        <div class="col-6"><button onclick="addScore(1)">+</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Jugadores -->
+        <div class="col-6">
+            <div class="row">
+                <div class="col" id="subTitle">
+                    <p>Jugadores</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col"><p id="jugadores">0</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"><button onclick="addPlayers(0)">-</button></div>
+                        <div class="col-6"><button onclick="addPlayers(1)">+</button></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id=continuar>
+                            <button>Continuar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
