@@ -1,0 +1,15 @@
+
+#dot1{
+    border: solid;
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+}
+
+#dot1 img{
+    width: 30%;
+    height: 30%;
+
+    margin: auto;
+}
